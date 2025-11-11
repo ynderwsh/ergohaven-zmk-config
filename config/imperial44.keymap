@@ -24,13 +24,14 @@
 
         nav {
             bindings = <
-&trans  &kp N1        &kp N2        &kp N3  &kp UP        &kp LEFT                           &kp N6        &kp N7        &kp N8     &kp N9     &kp N0         &trans
-&trans  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp DOWN      &kp RIGHT_ARROW                    &trans        &kp LEFT      &kp DOWN   &kp UP     &kp RIGHT      &trans
-&trans  &kp N7        &kp N8        &kp N9  &kp NUMBER_0  &kp PRINTSCREEN  &trans    &trans  &kp CAPSLOCK  &kp LC(LEFT)  &kp PG_DN  &kp PG_UP  &kp LC(RIGHT)  &trans
+&trans  &kp N1        &kp N2        &kp N3  &kp UP        &kp LEFT                           &kp MINUS     &kp PLUS      &kp SLASH  &kp QUESTION  &kp NON_US_HASH  &trans
+&trans  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp DOWN      &kp RIGHT_ARROW                    &trans        &kp LEFT      &kp DOWN   &kp UP        &kp RIGHT        &trans
+&trans  &kp N7        &kp N8        &kp N9  &kp NUMBER_0  &kp PRINTSCREEN  &trans    &trans  &kp CAPSLOCK  &kp LC(LEFT)  &kp PG_DN  &kp PG_UP     &kp LC(RIGHT)    &trans
                                             &trans        &trans           &trans    &trans  &mo 3         &trans
             >;
 
             display-name = "Navigation";
+            sensor-bindings = <&inc_dec_kp PAGE_UP LA(PAGE_DOWN)>;
         };
 
         sym {
