@@ -24,10 +24,10 @@
 
         nav {
             bindings = <
-&trans  &kp N1        &kp N2        &kp N3     &kp N4     &kp N5                             &kp N6        &kp N7        &kp N8     &kp N9     &kp N0         &trans
-&trans  &kp NUMBER_4  &kp NUMBER_5  &kp N6     &kp END    &kp LA(LSHFT)                      &trans        &kp LEFT      &kp DOWN   &kp UP     &kp RIGHT      &trans
-&trans  &kp N7        &kp LC(X)     &kp LC(C)  &kp LC(V)  &kp PRINTSCREEN  &trans    &trans  &kp CAPSLOCK  &kp LC(LEFT)  &kp PG_DN  &kp PG_UP  &kp LC(RIGHT)  &trans
-                                               &trans     &trans           &trans    &trans  &mo 3         &trans
+&trans  &kp N1        &kp N2        &kp N3  &kp UP        &kp LEFT                           &kp N6        &kp N7        &kp N8     &kp N9     &kp N0         &trans
+&trans  &kp NUMBER_4  &kp NUMBER_5  &kp N6  &kp DOWN      &kp RIGHT_ARROW                    &trans        &kp LEFT      &kp DOWN   &kp UP     &kp RIGHT      &trans
+&trans  &kp N7        &kp N8        &kp N9  &kp NUMBER_0  &kp PRINTSCREEN  &trans    &trans  &kp CAPSLOCK  &kp LC(LEFT)  &kp PG_DN  &kp PG_UP  &kp LC(RIGHT)  &trans
+                                            &trans        &trans           &trans    &trans  &mo 3         &trans
             >;
 
             display-name = "Navigation";
