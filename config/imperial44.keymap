@@ -46,13 +46,14 @@
 
         sym {
             bindings = <
-&kp F1      &kp F2          &kp F3          &kp F4           &kp F5          &kp F6                    &kp F7     &kp F8    &kp F9     &kp F10   &kp F11   &kp F12
+&kp F1      &kp F2          &kp F3          &kp F4           &kp F5          &kp F6                    &trans     &kp F8    &kp F9     &kp F10   &kp F11   &kp F12
 &caps_word  &mkp MB1        &mmv MOVE_UP    &mkp MB2         &msc SCRL_UP    &trans                    &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &trans
 &trans      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_DOWN  &trans  &trans    &trans  &trans     &kp PIPE  &kp TILDE  &kp AMPS  &kp DLLR  &trans
                                                              &trans          &mo 3   &trans    &trans  &trans     &trans
             >;
 
             display-name = "Symbols";
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         adj {
