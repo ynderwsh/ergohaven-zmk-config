@@ -39,7 +39,7 @@
             >;
 
             display-name = "Navigation";
-            sensor-bindings = <&inc_dec_kp PAGE_UP LA(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp TAB LA(PRINTSCREEN)>;
         };
 
         sym {
